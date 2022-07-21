@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <title>Spotify Clone</title>
+  </head>
+  <body>
+    <!-- NAV BAR-->
+    <header>
+      <div class="w-full px-3 py-4 bg-black md:px-20">
+        <div class="container flex items-center mx-auto ">
+              <a href="/">
+                <img
+                  src="img/spotify-logo.png"
+                  alt="Spotify"
+                  class="w-20 md:125px"/>
+              </a>
+              <div class="flex justify-end flex-1 text-3xl text-white md:hidden">
+                <i class="fas fa-bars"></i>
+              </div>
+              <div class="items-end flex-1 hidden font-bold text-white md:flex">
+                <nav class="flex-1">
+                  <ul class="flex justify-end flex-1 class="px-4"">
+                    <li class="px-4"><a class="text-sm hover:text-hoverspt" href=" ">Premium</a></li>
+                    <li class="px-4"><a class="text-sm hover:text-hoverspt" href=" ">Ajuda</a></li>
+                    <li class="px-4"><a class="text-sm hover:text-hoverspt" href=" ">Baixar</a></li>
+                    <li class="px-4"><span class="border-r border-white"></span></li>
+                    <li class="px-4"><a class="text-sm hover:text-hoverspt" href=" ">Inscrever-se</a></li>
+                    <li class="px-4"><a class="text-sm hover:text-hoverspt" href=" ">Login</a></li>
+                  </ul>
+                </nav>
+              </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTEÚDO-->
+    <main>
+        <div class="flex flex-col justify-center text-center bg-spotify-theme-mobile md:bg-spotify-theme bg-banner-mobile md:bg-banner bg-195% md:bg-175% bg-purple-main text-green-main py-40 px-4">
+            <h1 class="max-w-4xl mx-auto mb-10 text-5xl font-bold leading-none md:text-9xl">Escutar muda tudo</h1>
+            <p class="mb-10 text-md md:text-xl" >Milhões de músicas e podcast para explorar. E nem precisa de cartão de crétido</p>
+            <a class="max-w-xl px-10 py-3 mx-auto text-sm font-bold tracking-widest uppercase transition duration-500 rounded-full bg-green-main hover:bg-white text-purple-main" href="#">Obtenha o Spotify Free</a>
+        </div>
+    </main>
+
+    <!-- FOOTER-->
+    <footer>
+      <div class="grid grid-cols-1 p-4 text-white bg-black md:grid-cols-6 md:p-20">
+        <div class="pt-10 md:col-span-1 md:pt-0">
+          <a href=""> 
+            <img src="img/spotify-logo.png" alt="Spotify" class="w-20 md:w-125px">
+          </a>
+        </div>
+        <div class="pt-10 md:col-span-1 md:pt-4">
+          <h3 class="mb-5 text-xs font-bold tracking-widest text-gray-500 uppercase">Empresa</h3>
+          <ul>
+            <li class="mb-5">
+              <a href="#">Sobre</a>
+            </li>
+            <li class="mb-5">
+              <a href="#">Empregos</a>
+            </li>  
+            <li class="mb-5">
+              <a href="#">For the records</a>
+            </li>
+          </ul>
+        </div>
+        <div class="pt-10 md:col-span-1 md:pt-4">
+          <h3 class="mb-5 text-xs font-bold tracking-widest text-gray-500 uppercase">Comunidades</h3>
+          <ul>
+            <li class="mb-5">
+              <a href="#">Para artistas</a>
+            </li>
+            <li class="mb-5">
+              <a href="#">Desenvolvedores</a>
+            </li>
+            <li class="mb-5">
+              <a href="#">Publicidade</a>
+            </li>
+            <li class="mb-5">
+              <a href="#">Investidores</a>
+            </li>
+            <li class="mb-5">
+              <a href="#">Fornecedores</a>
+            </li>
+          </ul>
+        </div>
+        <div class="pt-10 md:col-span-1 md:pt-4">
+          <h3 class="mb-5 text-xs font-bold tracking-widest text-gray-500 uppercase">Links úteis</h3>
+          <ul>
+            <li class="mb-5">
+              <a href="#">Ajuda</a>
+            </li>
+            <li class="mb-5">
+              <a href="#">Player da Web</a>
+            </li>
+            <li class="mb-5">
+              <a href="#">Aplicativo móvel grátis</a>
+            </li>
+          </ul>
+        </div>
+        <div class="pt-10 md:colmt-20 md:pt-4">
+          <ul class="flex md:justify-end">
+            <li class="flex items-center justify-center w-16 h-8 mx-2 text-2xl bg-gray-900 rounded-full hover:text-green-main"><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li class="flex items-center justify-center w-16 h-8 mx-2 text-2xl bg-gray-900 rounded-full hover:text-green-main"><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li class="flex items-center justify-center w-16 h-8 mx-2 text-2xl bg-gray-900 rounded-full hover:text-green-main"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+          </ul>
+        </div>
+        <div class="pt-10 mt-20 md:col-span-4">
+          <ul class="flex">
+            <li class="inline-block mr-4 text-sm text-gray-600"><a href="#">Centro de Privacidade</a></li>
+            <li class="inline-block mr-4 text-sm text-gray-600"><a href="#">Política de Privacidade</a></li>
+            <li class="inline-block mr-4 text-sm text-gray-600"><a href="#">Cookies</a></li>
+            <li class="inline-block mr-4 text-sm text-gray-600"><a href="#">Sobre anúncios</a></li>
+          </ul>
+        </div>
+        <div class="pt-10 mt-20 md:col-span-2">
+          <p class="flex justify-end text-sm text-gray-600">&copy; 2022 Spotify AB</p>
+        </div>
+      
+      
+      
+      </div>
+ 
+
+    </footer>
+  </body>
+</html>
