@@ -4,29 +4,30 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        '14': '3.5rem',
-        '125px': '125px'
+        14: "3.5rem",
+        "125px": "125px",
       },
       colors: {
-        'hoverspt': '#18D760',
-        'purple-main': '#2D46B9',
-        'green-main': '#1ED760',
+        hoverspt: "#18D760",
+        "purple-main": "#2D46B9",
+        "green-main": "#1ED760",
       },
-      backgroundImage: theme => ({
-        'spotify-theme': "url('/img/bursts.svg')",
-        'spotify-theme-mobile': "url('/img/bursts-mobile.svg')",
+      backgroundImage: (theme) => ({
+        "spotify-theme": "url('../spotify/img/bursts.svg')",
+        "spotify-theme-mobile": "url('../spotify/img/bursts-mobile.svg')",
+        "tesla-theme": "url('../tesla/img/bg.jpg')",
       }),
       backgroundSize: {
-        '175%': '175%',
-        '195%': '195%'
+        "175%": "175%",
+        "195%": "195%",
       },
       backgroundPosition: {
-        'banner': '46% 4%',
-        'banner-mobile': 'top 25% center'
+        "banner-desktop": "46% 4%",
+        "banner-mobile": "top 25% center",
       },
       fontSize: {
-        '9xl': '9rem'
-      }
+        "9xl": "9rem",
+      },
     },
   },
   plugins: [],
