@@ -1,12 +1,20 @@
 # Treinamento CSS com TAILWINDCSS
 
-Este repositório conterá o código do conteúdo gerado do treinamento CSS com Tailwindcss.
+Este repositório contem o código do conteúdo gerado do treinamento CSS com Tailwindcss.
 
-Demostration
+Demostração
 
-## Um clone do Spotify
+## Spotify Clone
 
-## Um clone do Facebook
+<img src="https://raw.githubusercontent.com/fabianosfbr/tailwindcss-project/main/src/spotify/img/spotify-screenshot.png" />
+
+## Tesla Clone
+
+<img src="https://raw.githubusercontent.com/fabianosfbr/tailwindcss-project/main/src/tesla/img/tesla-screenshot.png" />
+
+## Tweeter Clone
+
+<img src="https://raw.githubusercontent.com/fabianosfbr/tailwindcss-project/main/src/twitter/img/twitter-screenshot.png" />
 
 ## Techs
 
