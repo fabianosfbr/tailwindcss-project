@@ -8,6 +8,7 @@ Demostração
 <img src="https://raw.githubusercontent.com/fabianosfbr/tailwindcss-project/main/src/spotify/img/spotify-screenshot.png" />
 
 ## Tesla Clone
+<img src="https://raw.githubusercontent.com/fabianosfbr/tailwindcss-project/main/src/tesla/img/tesla-screenshot.png" />
 
 ## Tweeter Clone
 
