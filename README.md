@@ -10,7 +10,9 @@ Demostração
 ## Tesla Clone
 <img src="https://raw.githubusercontent.com/fabianosfbr/tailwindcss-project/main/src/tesla/img/tesla-screenshot.png" />
 
-## Tweeter Clone
+## Twitter Clone
+<img src="https://raw.githubusercontent.com/fabianosfbr/tailwindcss-project/main/src/twitter/img/twitter-screenshot.png" />
+
 
 ## Techs
 
