@@ -23,4 +23,5 @@ Demostração
 ## Autor
 
 **Fabiano Fernandes**
-Encontrme-nas redes sociais: @fabianosfbr
+
+Encontre-me nas redes sociais: @fabianosfbr
